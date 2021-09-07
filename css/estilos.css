@@ -65,7 +65,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 140px;
+  margin-top: 60px;
 }
 
 .inicio-title {
@@ -85,6 +85,20 @@
 }
 
 .logout-title {
+  padding: 15px;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}
+
+.icon-user-edit{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -25px;
+  margin-left: -62px;
+}
+
+.user-edit-title {
   padding: 15px;
   font-family: 'Poppins', sans-serif;
   color: white;
