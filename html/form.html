@@ -10,11 +10,7 @@
 <body>
     <!--Header-->
     <header>
-        <div class="header">          
-            <div class="header__img">
-                <img src="/assets/images/logo.svg" alt="IPT">
-                <h4 class="aviso">Actualizar información</h4>
-            </div>
+        <div class="header">        
             <div class="header__input-icono">
                 <input type="text" placeholder="Search">
                 <div class="search-icon">
@@ -31,9 +27,115 @@
         </div>
     </header>
 
+    <!--Sidebar-->
+    <aside class="container__aside">
+        <!--Sidebar-->
+      <div class="row">
+        <div class="col-xs-6">
+            <div class="sidebar">
+                <figure class="sidebar-logo">
+                    <img src="/assets/images/logo.svg"alt="logo de IPT">
+                </figure>
+                <div class="sidebar-photo">
+                    <div>
+                        <img class="sidebar-photo-profile" src="/assets/images/photo2.jpg" alt="Foto de perfil">
+                    </div>
+                </div>
+  
+                <!--Redes sociales-->
+                <div class="social-media">
+                    <div class="flex-container">
+                        <div class="flex-item">
+                            <a href="#">
+                                <img src="/assets/images/facebook.svg" alt="Facebook">
+                            </a>
+                        </div>
+                        <div class="flex-item">
+                            <a href="#">
+                                <img src="/assets/images/instagram.svg" alt="Instagram">
+                            </a>
+                        </div>
+                        <div class="flex-item">
+                            <a href="#">
+                                <img src="/assets/images/tiktok.svg" alt="TikTok">
+                            </a>
+                        </div>
+                        <div class="flex-item">
+                            <a href="#">
+                                <img src="/assets/images/youtube.svg" alt="Youtube">
+                            </a>
+                        </div>
+                        <div class="flex-item">
+                            <a href="#">
+                                <img src="/assets/images/whatsapp.svg" alt="WhatsApp">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+  
+                <!--Menú principal-->
+                <div class="menu">
+                    <nav class="flex-container-menu">
+                        <div class="flex-item-menu">
+                            <a href="#"><img src="/assets/images/home.svg" alt="Home"></a>
+                            <h4 class="inicio-title">Inicio</h4>                         
+                        </div>
+                        <div class="flex-item-menu">
+                            <a href="#"><img src="/assets/images/alert.svg" alt="Reprogramar"></a>
+                            <h4 class="repr-title">Reprogramación</h4>             
+                        </div>
+                    </nav>
+                    <section class="icon-user-edit">
+                      <a href="#"><img src="/assets/images/editar_usuario.svg" alt="Salir" width="30px"></a>
+                      <h4 class="user-edit-title">Editar perfil<h4>      
+                    </section>
+                    <section class="flex-item-menu-logout">
+                        <a href="#"><img src="/assets/images/off.svg" alt="Salir" width="30px"></a>
+                        <h4 class="logout-title">Cerrar Sesión<h4>      
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+    </aside>
+
     <!--Contenedor del formulario-->
-    <section class="container-form">
-        
+    <section class="container">
+            <div class="container__inputs__1">
+                <h5 class="indicador__form">Nombres</h5>
+                <input class="inputs" type="text" name="" id="">
+                <h5 class="indicador__form">Cédula</h5>
+                <input class="inputs" type="text" name="" id="">
+                <h5 class="indicador__form">Tu correo</h5>
+                <input class="inputs" type="text" name="" id="">
+                <h5 class="indicador__form">Celular</h5>
+                <input class="inputs" type="text" name="" id="">
+            </div>
+            <div class="container__inputs__2">
+                <h5 class="indicador__form">Apellidos</h5>
+                <input class="inputs" type="text" name="" id="">
+                <h5 class="indicador__form">Código de estudiante</h5>
+                <input class="inputs" type="text" name="" id="">
+                <h5 class="indicador__form">Género</h5>
+                <input class="inputs" type="" name="" id="">
+                <h5 class="indicador__form">Dirección</h5>
+                <input class="inputs" type="text" name="" id="">
+            </div>
     </section>
+    <section>
+        <div class="container__foto">
+            <h5 class="indicador__foto">Fotografía</h5>
+            <input class="input__foto" type="file" name="" id="">
+        </div>
+    </section>
+    <section>
+        <div class="container__boton__actualizar">
+            <div>
+                <button>Actualizar</button>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+    </footer>
 </body>
 </html>
