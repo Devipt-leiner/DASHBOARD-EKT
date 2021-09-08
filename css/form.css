@@ -248,12 +248,20 @@
   .container__boton__actualizar button {
     height: 35px;
     width: 120px;
-    background-color: rgb(27,108,233);
-    color: rgb(255, 255, 255);
+    color: rgb(27,108,233);
     font-family: 'Poppins', sans-serif;
+    font-weight: bold;
     border-radius: 15px;
     margin-left: 355px;
     margin-bottom: 30px;
+    border-color: #dfe1e5bb;
+    margin-top: 30px;
+  }
+
+  .container__boton__actualizar button:hover{
+    box-shadow: 5px 5px 15px 0px #20212427;
+    border: 2px solid rgb(27,108,233);
+    font-style: oblique;
   }
 
   .footer {

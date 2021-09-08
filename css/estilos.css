@@ -175,7 +175,7 @@ body {
   margin-top: -5px;
 }
 .container2__registro{
-  background: linear-gradient(rgb(49,27,233), #8f57fd);
+  background: linear-gradient(rgb(49,27,233), #c7c3c3);
   border-radius: 25px;
   box-shadow: 0px 2px 5px 2px #c7c3c3;
   justify-content: center;
@@ -188,7 +188,7 @@ body {
 .container2__consulta{
   width: 310px;
   height: 320px;  
-  background: linear-gradient(rgb(49,27,233), #8f57fd); 
+  background: linear-gradient(rgb(49,27,233), #c7c3c3); 
   border-radius: 25px;
   margin-top: 10px;
   box-shadow: 0px 2px 5px 2px #c7c3c3;
