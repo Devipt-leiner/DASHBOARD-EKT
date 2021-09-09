@@ -73,11 +73,13 @@
   align-items: center;
   justify-content: center;
   margin-top: -25px;
-  margin-left: -62px;
+  margin-left: -55px;
+  margin-right: 10px;
 }
 
 .user-edit-title {
   padding: 15px;
+  margin-left: 2px;
   font-family: 'Poppins', sans-serif;
   color: white;
 }
